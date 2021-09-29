@@ -15,4 +15,6 @@ if (process.env.JAWSDB_URL) {
   });
 }
 
+sequelize.sync({});
+
 module.exports = sequelize;
